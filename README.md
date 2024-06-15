@@ -1,2 +1,2 @@
 # siskoala.github.io
-Jelajahi beragam template desain yang dirancang untuk memenuhi kebutuhan berbagai jenis proyek. Dari bisnis hingga portfolio pribadi, temukan desain yang tepat untuk mewujudkan visi kreatif Anda.
+Explore a variety of design templates designed to meet the needs of various types of projects. From business to personal portfolios, find the right design to bring your creative vision to life.
