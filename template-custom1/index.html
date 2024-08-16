@@ -59,8 +59,8 @@
             <div class="nav-bar">
                 <div class="container-fluid">
                     <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-                        <a href="#" class="navbar-brand">MENU</a>
-                        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                        <a href="#" class="navbar-brand"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
@@ -87,34 +87,29 @@
             <!-- Nav Bar End -->
 
             <!-- Carousel Start -->
-            <div id="carousel" class="carousel slide" data-bs-ride="true">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
+            <div id="carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                    <div class="carousel-item active">
+                    <div class="carousel-item active" data-bs-interval="2000">
                         <img class="d-block w-100" src="img/carousel-1.jpeg" alt="Carousel Image" loading="lazy">
-                        <div class="carousel-caption d-none d-md-block">
+                        <div class="carousel-caption">
                             <p class="animated fadeInRight text-uppercase">Welcome to Our Company</p>
                             <h1 class="animated fadeInLeft text-white">For Your Dream Project</h1>
                             <a class="btn rounded-pill animated fadeInUp" href="#">Help and Support</a>
                         </div>
                     </div>
-
-                    <div class="carousel-item">
+            
+                    <div class="carousel-item" data-bs-interval="3000">
                         <img class="d-block w-100" src="img/carousel-2.jpeg" alt="Carousel Image" loading="lazy">
-                        <div class="carousel-caption d-none d-md-block">
+                        <div class="carousel-caption">
                             <p class="animated fadeInRight text-uppercase">Welcome to our company</p>
                             <h1 class="animated fadeInLeft">Expert in Industrial Solutions</h1>
                             <a class="btn rounded-pill animated fadeInUp" href="#">Help and Support</a>
                         </div>
                     </div>
-
-                    <div class="carousel-item">
+            
+                    <div class="carousel-item" data-bs-interval="4000">
                         <img class="d-block w-100" src="img/carousel-3.jpeg" alt="Carousel Image" loading="lazy">
-                        <div class="carousel-caption d-none d-md-block">
+                        <div class="carousel-caption">
                             <p class="animated fadeInRight">Welcome to our company</p>
                             <h1 class="animated fadeInLeft">For Your Dream Home</h1>
                             <a class="btn rounded-pill animated fadeInUp" href="#">Help and Support</a>
@@ -130,6 +125,7 @@
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
+            
             <!-- Carousel End -->
 
             <!-- Feature Start-->
@@ -211,9 +207,9 @@
                         <h2 class="text-white animated fadeInLeft">We Supply High-Quality Industrial Services</h2>
                     </div>
                     <div class="row">
-                        <div class="col-lg-3 col-md-5 h-100 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="col-sm-12 col-md-6 col-lg-3 h-100 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="service-item">
-                                <img src="img/services-1.jpeg" alt="Image" loading="lazy">
+                                <img class="img-fluid w-100" src="img/services-1.jpeg" alt="Image" loading="lazy">
                                 <div class="service-img">
                                     <div class="service-overlay">
                                         <h3>Machine Maintenance and Repair</h3>
@@ -222,10 +218,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-5 h-100 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="col-sm-12 col-md-6 col-lg-3 h-100 wow fadeInUp" data-wow-delay="0.2s">
                             <div class="service-item">
                                 <div class="service-img">
-                                    <img src="img/services-2.jpeg" alt="Image" loading="lazy">
+                                    <img class="img-fluid w-100" src="img/services-2.jpeg" alt="Image" loading="lazy">
                                     <div class="service-overlay">
                                         <h3>Manufacturing and Production</h3>
                                         <p>Lorem ipsum dolor sit amet, phasellus nec pretium mi...</p>
@@ -233,10 +229,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-5 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="col-sm-12 col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
                             <div class="service-item">
                                 <div class="service-img">
-                                    <img src="img/services-3.jpeg" alt="Image" loading="lazy">
+                                    <img class="img-fluid w-100" src="img/services-3.jpeg" alt="Image" loading="lazy">
                                     <div class="service-overlay">
                                         <h3>Design and Engineering</h3>
                                         <p>Lorem ipsum dolor sit amet, phasellus nec pretium mi...</p>
@@ -244,10 +240,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-5 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="col-sm-12 col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.4s">
                             <div class="service-item">
                                 <div class="service-img">
-                                    <img src="img/services-4.jpeg" alt="Image" loading="lazy">
+                                    <img class="img-fluid w-100" src="img/services-4.jpeg" alt="Image" loading="lazy">
                                     <div class="service-overlay">
                                         <h3>Industrial Automation</h3>
                                         <p>Lorem ipsum dolor sit amet, phasellus nec pretium mi...</p>
@@ -255,10 +251,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-5 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="col-sm-12 col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.5s">
                             <div class="service-item">
                                 <div class="service-img">
-                                    <img src="img/services-5.jpeg" alt="Image" loading="lazy">
+                                    <img class="img-fluid w-100" src="img/services-5.jpeg" alt="Image" loading="lazy">
                                     <div class="service-overlay">
                                         <h3>Energy Management</h3>
                                         <p>Lorem ipsum dolor sit amet, phasellus nec pretium mi...</p>
@@ -266,10 +262,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-5 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="col-sm-12 col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.6s">
                             <div class="service-item">
                                 <div class="service-img">
-                                    <img src="img/services-6.jpeg" alt="Image" loading="lazy">
+                                    <img class="img-fluid w-100" src="img/services-6.jpeg" alt="Image" loading="lazy">
                                     <div class="service-overlay">
                                         <h3>Logistics & Supply Chain Management</h3>
                                         <p>Lorem ipsum dolor sit amet, phasellus nec pretium mi...</p>
@@ -277,10 +273,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-5 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="col-sm-12 col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.6s">
                             <div class="service-item">
                                 <div class="service-img">
-                                    <img src="img/services-7.jpeg" alt="Image" loading="lazy">
+                                    <img class="img-fluid w-100" src="img/services-7.jpeg" alt="Image" loading="lazy">
                                     <div class="service-overlay">
                                         <h3>Quality & Compliance Consulting</h3>
                                         <p>Lorem ipsum dolor sit amet, phasellus nec pretium mi...</p>
@@ -288,10 +284,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-5 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="col-sm-12 col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.6s">
                             <div class="service-item">
                                 <div class="service-img">
-                                    <img src="img/services-8.jpeg" alt="Image" loading="lazy">
+                                    <img class="img-fluid w-100" src="img/services-8.jpeg" alt="Image" loading="lazy">
                                     <div class="service-overlay">
                                         <h3>Training and Development</h3>
                                         <p>Lorem ipsum dolor sit amet, phasellus nec pretium mi...</p>
@@ -450,7 +446,7 @@
                         <h2 class="animated fadeInRight">For Any Query</h2>
                     </div>
                     <div class="row">
-                        <div class="col-md-6 rounded-start wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="col-lg-6 rounded-start wow fadeInUp" data-wow-delay="0.3s">
                             <div class="contact-info">
                                 <h3>Feel free to message us</h3>
                                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis recusandae maxime voluptas omnis voluptate totam facilis nostrum nihil labore.</p>
@@ -477,7 +473,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 rounded-end wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="col-lg-6 rounded-end wow fadeInUp" data-wow-delay="0.3s">
                             <div class="contact-form">
                                 <div id="success"></div>
                                 <form name="sentMessage" id="contactForm" novalidate="novalidate">

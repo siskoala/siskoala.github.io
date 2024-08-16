@@ -313,16 +313,17 @@ a:focus {
 
 .carousel .carousel-caption {
     position: absolute;
-    top: 150px;
+    top: 0;
     bottom: 0;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: calc(200vh - 270px);
-    min-height: 500px;
+    height: calc(100vh - 170px);
+    min-height: 400px;
     opacity: 1;
-    z-index: 2;
+    z-index: 3;
+    visibility: visible;
 }
 
 .carousel .carousel-caption p {
@@ -358,6 +359,10 @@ a:focus {
 }
 
 @media (max-width: 767.98px) {
+    .carousel .carousel-caption {
+        padding: 0 25px;
+    }
+
     .carousel .carousel-caption h1 {
         font-size: 40px;
         font-weight: 700;
@@ -371,11 +376,15 @@ a:focus {
         padding: 12px 30px;
         font-size: 18px;
         font-weight: 500;
-        letter-spacing: 0;
+        letter-spacing: 1.2;
     }
 }
 
 @media (max-width: 575.98px) {
+    .carousel .carousel-caption {
+        padding: 0 25px;
+    }
+    
     .carousel .carousel-caption h1 {
         font-size: 30px;
         font-weight: 500;
@@ -392,6 +401,7 @@ a:focus {
         letter-spacing: 0;
     }
 }
+
 
 .carousel .animated {
     -webkit-animation-duration: 1.5s;
@@ -482,7 +492,7 @@ a:focus {
     color: #2A3B5F;
     font-size: 15px;
     font-weight: 500;
-    letter-spacing: 1px;
+    letter-spacing: 0.1rem;
 }
 .section-header h2 {
     margin: 0;
@@ -637,6 +647,9 @@ a:focus {
         margin-bottom: 30px;
         height: auto;
     }
+    .about .about-text {
+        font-size: 0.8rem;
+    }
 }
 /********* Service *********/
 .service-home {
@@ -653,7 +666,6 @@ a:focus {
     padding: 45px 0 15px 0;
 }
 
-
 .service .service-item {
     position: relative;
     width: 100%;
@@ -668,9 +680,10 @@ a:focus {
 
 .service .service-item img {
     width: 100%;
-    height: 100%;
+    height: 400px;
     object-fit: cover;
     display: block;
+    border-radius: 10px;
 }
 
 
@@ -711,6 +724,13 @@ a:focus {
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
+}
+
+@media (max-width: 767.98px) {
+    .service .service-item img {
+        width: 100%;
+        height: auto;
+    }
 }
 /*********** FAQs **********/
 .faqs {
@@ -796,17 +816,19 @@ a:focus {
 
 .newsletter .btn {
     position: absolute;
-    top: 5px;
-    right: 5px;
-    height: 40px;
+    top: 0;
+    right: 0;
+    height: 100%;
     padding: 8px 15px;
     font-size: 14px;
     font-weight: 500;
     text-transform: uppercase;
-    color: #2A3B5F;
+    color: #0d0d0e;
     background: #EBFF00;
-    border-radius: 20px;
-    border: 2px solid #2A3B5F;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 8px;
     transition: .3s;
 }
 
@@ -1281,16 +1303,16 @@ a:focus {
 }
 
 
-.contact .col-md-6 {
+.contact .col-lg-6 {
     padding: 30px;
 }
 
-.contact .col-md-6:first-child {
+.contact .col-lg-6:first-child {
     background: #ffffff;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-.contact .col-md-6:last-child {
+.contact .col-lg-6:last-child {
     background: #2A3B5F;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
@@ -1388,7 +1410,16 @@ a:focus {
     list-style-type: none;
 }
 
-
+@media (max-width: 767.98px) {
+    .contact .contact-info {
+        left: 0;
+        right: 0;
+        margin: 0;
+    }
+    .contact .contact-form {
+        margin: 0;
+    }
+}
 /********* Footer **********/
 .footer {
     position: relative;
