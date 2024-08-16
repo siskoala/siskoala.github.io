@@ -151,14 +151,13 @@
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-    color: var(--bs-white) !important;
+    color: #fff !important;
     background: var(--bs-primary) !important;
     transition: 0.2s 0.1s;
-
 }
 
 .navbar-light .navbar-brand h1 {
-    color: var(--bs-white);
+    color: #fff;
 }
 
 .sticky-top.navbar-light .navbar-brand h1 {
@@ -239,15 +238,21 @@
     
     .navbar-light .navbar-nav .nav-link:hover,
     .navbar-light .navbar-nav .nav-link.active  {
-        color: var(--bs-primary) !important;
+        color: var(--bs-primary)  !important;
+        background-color: transparent !important;
     }
+
+    /* .navbar-light .navbar-nav .nav-link.active  {
+        color: var(--bs-primary) !important;
+    } */
+
 
     .navbar-light .navbar-brand img {
         max-height: 45px;
     }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 767px) {
     .navbar-light {
         position: absolute;
         width: 100%;
