@@ -148,7 +148,7 @@ h6,
     }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 767px) {
     .navbar .nav-item .dropdown-menu {
         display: block;
         border: none;
@@ -169,7 +169,7 @@ h6,
 
 
 /*** Header ***/
-#header-carousel .carousel-item .carousel-caption {
+.carousel-caption {
     top: 0;
     left: 0;
     right: 0;
@@ -178,10 +178,6 @@ h6,
     align-items: center;
     background: linear-gradient(to right, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
     z-index: 1;
-}
-#header-carousel .carousel-item .carousel-img {
-    height: 700px;
-    object-fit: cover;
 }
 
 .carousel-control-prev,
@@ -365,8 +361,11 @@ h6,
     z-index: 2;
     border-radius: 50%;
 }
-.service-img img{
+.service-img img {
     border-radius: 50%;
+}
+.service-item  .img-cover {
+    border-radius: 15px;
 }
 .service-item .service-detail {
     position: absolute;
@@ -376,7 +375,7 @@ h6,
     left: 0;
     overflow: hidden;
     z-index: 1;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 .service-title {
@@ -392,12 +391,12 @@ h6,
     justify-content: center;
     text-align: center;
     background: rgba(0, 0, 0, 0.425);
-    border-radius: 5px;
+    border-radius: 15px;
     transition: .5s;
 }
 .service-item:hover .service-title {
     top: -100%;
-    border-radius: 5px
+    border-radius: 5px;
 }
 
 .service-item .service-text {
@@ -417,12 +416,12 @@ h6,
 
 .service-item:hover .service-text {
     top: 0;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 .service-item:hover .service-text::before {
     top: -55px;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 .service-item .btn {
