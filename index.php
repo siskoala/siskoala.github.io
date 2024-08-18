@@ -4,16 +4,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Template Design - Siskoala</title>
-    <link rel="icon" href="asset/favicon.png" type="image/x-icon">
 </head>
 <body>
     <ul>
         <li><a href="template-basic1/">template-basic1</a></li>
         <li><a href="template-basic2/">template-basic2</a></li>
         <li><a href="template-custom1/">template-custom1</a></li>
+        <li><a href="template-custom2/">template-custom2</a></li>
     </ul>
     <?php
-    if (!file_exists('template-basic1/') || !file_exists('template-basic2/') || !file_exists('template-custom1/')) {
+    if (!file_exists('template-basic1/') || !file_exists('template-basic2/') || !file_exists('template-custom1/') || !file_exists('template-custom2/')) {
         http_response_code(404);
         echo "<h1>404</h1>";
         echo "<p>File not found</p>";
