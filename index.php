@@ -13,7 +13,7 @@
         <li><a href="template-custom2/">template-custom2</a></li>
     </ul>
     <?php
-    if (!file_exists('template-basic1/') || !file_exists('template-basic2/') || !file_exists('template-custom1/') || !file_exists('template-custom2/')) {
+    if (!file_exists('template-basic1/') || !file_exists('template-basic2/') || !file_exists('template-custom1/') || !file_exists('template-custom2/') || !file_exists('template-custom3/')) {
         http_response_code(404);
         echo "<h1>404</h1>";
         echo "<p>File not found</p>";
