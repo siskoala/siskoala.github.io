@@ -11,6 +11,7 @@
         <li><a href="template-basic2/">template-basic2</a></li>
         <li><a href="template-custom1/">template-custom1</a></li>
         <li><a href="template-custom2/">template-custom2</a></li>
+        <li><a href="template-basic/index.html">Template Basic (New)</a></li>
     </ul>
     <?php
     if (!file_exists('template-basic1/') || !file_exists('template-basic2/') || !file_exists('template-custom1/') || !file_exists('template-custom2/') || !file_exists('template-custom3/')) {
