@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Slice Time</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.webp" rel="icon">
+    <link href="assets/img/favicon.webp" rel="apple-touch-icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/vendor/lib/fontawesome/css/all.min.css">
+
+    <!-- Libraries Stylesheet -->
+    <link href="assets/vendor/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="assets/vendor/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/vendor/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+    
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="assets/vendor/bootstrap/css/style.css" rel="stylesheet">
+</head>
+<body class="index-page">
+    <div class="container-xxl bg-light p-0">
+        <!-- Spinner -->
+        <div id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+
+        <!-- Navbar & Hero Section -->
+        <section>
+            <div class="container-xxl position-relative p-0">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
+                    <a href="index.html" class="navbar-brand p-0">
+                        <img src="assets/img/favicon.webp" alt="Logo">
+                        <span class="ms-2">Slice Time</span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="fa fa-bars"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav ms-auto py-0 pe-4">
+                            <a href="#hero" class="nav-item nav-link active">Home</a>
+                            <a href="#about" class="nav-item nav-link">About</a>
+                            <a href="#menu" class="nav-item nav-link">Menu</a>
+                            <a href="#teams" class="nav-item nav-link">Teams</a>
+                            <a href="#contact" class="nav-item nav-link">Contact</a>
+                        </div>
+                    </div>
+                </nav>
+                <!-- Hero Section -->
+                <div class="container-xxl py-5 bg-dark hero-header" id="hero">
+                    <div class="container my-5 py-5">
+                        <div class="row align-items-center g-5">
+                            <div class="col-lg-7 text-center text-lg-start">
+                                <h1 class="display-2 text-white animated slideInLeft">Slice your time, taste the joy</h1>
+                                <p class="text-white fs-4 animated slideInLeft mb-4 pb-2">Nikmati momen terbaikmu dengan satu slice penuh rasa</p>
+                                <a href="#contact" class="btn btn-primary py-sm-3 px-sm-5 me-3 animated slideInLeft rounded-pill">
+                                    Pesan Sekarang
+                                </a>
+                            </div>
+                            <div class="col-lg-5 text-center text-lg-end overflow-hidden">
+                                <img class="img-fluid" src="assets/img/bg-header.webp" alt="img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Service Section -->
+        <section class="services section bg-dark" id="services">
+            <div class="container-xxl py-5">
+                <div class="container">
+                    <div class="row g-4">
+                        <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="service-item shadow-lg rounded pt-3">
+                                <div class="p-4">
+                                    <i class="bi bi-award-fill display-3 text-secondary"></i>
+                                    <h5 class="text-secondary mt-3 fw-bold">Profesional Chefs</h5>
+                                    <p>Nullam fringilla ipsum sit amet neque sollicitudin, vitae varius ipsum molestie.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="service-item shadow-lg rounded pt-3">
+                                <div class="p-4">
+                                    <i class="bi bi-fork-knife display-3 text-secondary"></i>
+                                    <h5 class="text-secondary mt-3 fw-bold">Quality Food</h5>
+                                    <p>Nullam fringilla ipsum sit amet neque sollicitudin, vitae varius ipsum molestie.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="service-item shadow-lg rounded pt-3">
+                                <div class="p-4">
+                                    <i class="bi bi-cart4 display-3 text-secondary"></i>
+                                    <h5 class="text-secondary mt-3 fw-bold">Online Order</h5>
+                                    <p>Nullam fringilla ipsum sit amet neque sollicitudin, vitae varius ipsum molestie.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                            <div class="service-item shadow-lg rounded pt-3">
+                                <div class="p-4">
+                                    <i class="bi bi-headset display-3 text-secondary"></i>
+                                    <h5 class="text-secondary mt-3 fw-bold">24/7 Service</h5>
+                                    <p>Nullam fringilla ipsum sit amet neque sollicitudin, vitae varius ipsum molestie.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about py-5 section bg-dark" id="about">
+            <div class="container-xxl py-5">
+                <div class="container">
+                    <div class="row g-5 align-items-center">
+                        <div class="col-lg-6">
+                            <div class="row g-3">
+                                <div class="col-6 text-start">
+                                    <img class="img-fluid rounded rounded-4 w-100 wow zoomIn" data-wow-delay="0.1s"
+                                        src="assets/img/about-1.webp">
+                                </div>
+                                <div class="col-6 text-start">
+                                    <img class="img-fluid rounded rounded-4 w-75 wow zoomIn" data-wow-delay="0.3s"
+                                        src="assets/img/about-2.webp" style="margin-top: 75%;">
+                                </div>
+                                <div class="col-6 text-end">
+                                    <img class="img-fluid rounded rounded-4 w-100 wow zoomIn" data-wow-delay="0.5s"
+                                        src="assets/img/about-3.webp">
+                                </div>
+                                <div class="col-6 text-end">
+                                    <img class="img-fluid rounded rounded-4 w-100 wow zoomIn" data-wow-delay="0.7s"
+                                        src="assets/img/about-4.webp">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <h5 class="section-title ff-secondary text-start text-white fw-normal">About Us</h5>
+                            <h1 class="mb-4 ff-title text-white">Hello, Foodie!!</h1>
+                            <p class="text-secondary mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae cupiditate aliquam excepturi laborum, quaerat omnis consequatur iusto beatae natus accusamus corrupti alias? Iusto omnis error quisquam veritatis! Hic, sit recusandae.</p>
+                            <p class="text-secondary mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae cupiditate aliquam excepturi laborum, quaerat omnis consequatur iusto beatae natus accusamus corrupti alias? Iusto omnis error quisquam veritatis! Hic, sit recusandae.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu Section -->
+        <section class="menu py-5 section" id="menu">
+            <div class="container-xxl py-5">
+                <div class="container">
+                    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                        <h5 class="section-title-dark ff-secondary text-center text-dark fw-normal">Food Menu</h5>
+                        <h1 class="ff-title text-dark mb-5">Most Popular Food</h1>
+                    </div>
+                    <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.1s">
+                        <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5">
+                            <li class="nav-item">
+                                <a class="d-flex align-items-center text-start mx-3 ms-0 pb-3 active" data-bs-toggle="pill"
+                                    href="#tab-1">
+                                    <i class="fa-solid fa-pizza-slice fa-2x text-primary"></i>
+                                    <div class="ps-2">
+                                        <h6 class="text-dark fw-bold mt-n1 mb-0">Pizza</h6>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill"
+                                    href="#tab-2">
+                                    <i class="fa-solid fa-mug-hot fa-2x text-primary"></i>
+                                    <div class="ps-2">
+                                        <h6 class="text-dark fw-bold mt-n1 mb-0">Coffee</h6>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill"
+                                    href="#tab-3">
+                                    <i class="fa-solid fa-cookie-bite fa-2x text-primary"></i>
+                                    <div class="ps-2">
+                                        <h6 class="text-dark fw-bold mt-n1 mb-0">Cookies</h6>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div id="tab-1" class="tab-pane fade show p-0 active">
+                                <div class="row gx-5 gy-4">
+                                    <div class="col-lg-6 menu-item">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid shadow rounded-circle" src="assets/img/product/pizza/Margherita.webp" alt="img"
+                                                style="width: 150px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span class="text-dark fw-bold">Margherita</span>
+                                                    <span class="text-dark fw-bold">IDR 55.000</span>
+                                                </h5>
+                                                <small class="fst-italic">Topping: keju mozzarella, saus tomat, daun basil</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 menu-item">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid shadow rounded-circle" src="assets/img/product/pizza/Pepperoni.webp" alt="img"
+                                                style="width: 150px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span class="text-dark fw-bold">Pepperoni</span>
+                                                    <span class="text-dark fw-bold">IDR 65.000</span>
+                                                </h5>
+                                                <small class="fst-italic">Topping: pepperoni, keju mozzarella, saus tomat</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 menu-item">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid shadow rounded-circle" src="assets/img//product/pizza/Hawaiian.webp" alt="img"
+                                                style="width: 150px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span class="text-dark fw-bold">Hawaiian</span>
+                                                    <span class="text-dark fw-bold">IDR 70.000</span>
+                                                </h5>
+                                                <small class="fst-italic">Topping: keju mozzarella, daging asap/ham, nanas</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 menu-item">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid shadow rounded-circle" src="assets/img/product/pizza/Meat Lovers.webp" alt="img"
+                                                style="width: 150px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span class="text-dark fw-bold">Meat Lover</span>
+                                                    <span class="text-dark fw-bold">IDR 80.000</span>
+                                                </h5>
+                                                <small class="fst-italic">Topping: sosis, beef, pepperoni, daging asap, keju</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 menu-item">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid shadow rounded-circle" src="assets/img/product/pizza/Vegetarian.webp" alt="img"
+                                                style="width: 150px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span class="text-dark fw-bold">Vegetarian</span>
+                                                    <span class="text-dark fw-bold">IDR 60.000</span>
+                                                </h5>
+                                                <small class="fst-italic">Topping: paprika, jamur, bawang bombay, jagung manis, tomat</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 menu-item">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid shadow rounded-circle" src="assets/img/product/pizza/BBQ Chicken.webp" alt="img"
+                                                style="width: 150px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span class="text-dark fw-bold">BBQ Chicken</span>
+                                                    <span class="text-dark fw-bold">IDR 75.000</span>
+                                                </h5>
+                                                <small class="fst-italic">Topping: ayam panggang saus BBQ, bawang bombay, paprika, keju</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 menu-item">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid shadow rounded-circle" src="assets/img/product/pizza/Seafood.webp" alt="img"
+                                                style="width: 150px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span class="text-dark fw-bold">Seafood</span>
+                                                    <span class="text-dark fw-bold">IDR 85.000</span>
+                                                </h5>
+                                                <small class="fst-italic">Topping: udang, cumi, paprika, bawang bombay, keju</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 menu-item">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid shadow rounded-circle" src="assets/img/product/pizza/Cheese Lovers.webp" alt="img"
+                                                style="width: 150px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span class="text-dark fw-bold">Cheese Lovers</span>
+                                                    <span class="text-dark fw-bold">IDR 65.000</span>
+                                                </h5>
+                                                <small class="fst-italic">Topping: campuran keju mozzarella, cheddar, parmesan</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="tab-2" class="tab-pane fade show p-0">
+                                <div class="row gx-5 gy-4">
+                                    <div class="col-lg-6 menu-item">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid shadow rounded-circle" src="assets/img/product/coffee/expresso.webp" alt="img" style="width: 150px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span class="text-dark fw-bold">Expresso</span>
+                                                    <span class="text-dark fw-bold">IDR 25.000</span>
+                                                </h5>
+                                                <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 menu-item">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid shadow rounded-circle" src="assets/img/product/coffee/americano.webp" alt="img"
+                                                style="width: 150px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span class="text-dark fw-bold">Americano</span>
+                                                    <span class="text-dark fw-bold">IDR 28.000</span>
+                                                </h5>
+                                                <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 menu-item">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid shadow rounded-circle" src="assets/img/product/coffee/cappuccino.webp" alt="img"
+                                                style="width: 150px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span class="text-dark fw-bold">Cappuccino</span>
+                                                    <span class="text-dark fw-bold">IDR 35.000</span>
+                                                </h5>
+                                                <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 menu-item">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid shadow rounded-circle" src="assets/img/product/coffee/latte.webp" alt="img"
+                                                style="width: 150px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span class="text-dark fw-bold">Latte</span>
+                                                    <span class="text-dark fw-bold">IDR 35.000</span>
+                                                </h5>
+                                                <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 menu-item">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid shadow rounded-circle" src="assets/img/product/coffee/mochaccino.webp" alt="img"
+                                                style="width: 150px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span class="text-dark fw-bold">Mochaccino</span>
+                                                    <span class="text-dark fw-bold">IDR 38.000</span>
+                                                </h5>
+                                                <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 menu-item">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid shadow rounded-circle" src="assets/img/product/coffee/cold-brew.webp" alt="img"
+                                                style="width: 150px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span class="text-dark fw-bold">Cold Brew</span>
+                                                    <span class="text-dark fw-bold">IDR 40.000</span>
+                                                </h5>
+                                                <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 menu-item">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid shadow rounded-circle" src="assets/img/product/coffee/tubruk.webp" alt="img"
+                                                style="width: 150px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span class="text-dark fw-bold">Kopi Tubruk</span>
+                                                    <span class="text-dark fw-bold">IDR 15.000</span>
+                                                </h5>
+                                                <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 menu-item">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid shadow rounded-circle" src="assets/img/product/coffee/luwak.webp" alt="img"
+                                                style="width: 150px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span class="text-dark fw-bold">Kopi Luwak</span>
+                                                    <span class="text-dark fw-bold">IDR 150.000</span>
+                                                </h5>
+                                                <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="tab-3" class="tab-pane fade show p-0">
+                                <div class="row gx-5 gy-4">
+                                    <div class="col-lg-6 menu-item">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid shadow rounded-circle" src="assets/img/product/cookies/Chocolate Chip.webp" alt="img"
+                                                style="width: 150px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span class="text-dark fw-bold">Chocolate Chip</span>
+                                                    <span class="text-dark fw-bold">IDR 25.000 /pack</span>
+                                                </h5>
+                                                <small class="fst-italic">(1 pack isi 6 pcs)</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 menu-item">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid shadow rounded-circle" src="assets/img/product/cookies/Oatmeal Raisin.webp" alt="img"
+                                                style="width: 150px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span class="text-dark fw-bold">Oatmeal Raisin</span>
+                                                    <span class="text-dark fw-bold">IDR 28.000 /pack</span>
+                                                </h5>
+                                                <small class="fst-italic">(1 pack isi 4 pcs)</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 menu-item">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid shadow rounded-circle" src="assets/img/product/cookies/Peanut Butter.webp" alt="img"
+                                                style="width: 150px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span class="text-dark fw-bold">Peanut Butter</span>
+                                                    <span class="text-dark fw-bold">IDR 30.000 /pack</span>
+                                                </h5>
+                                                <small class="fst-italic">(1 pack isi 12 pcs)</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 menu-item">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid shadow rounded-circle" src="assets/img/product/cookies/Red Velvet.webp" alt="img"
+                                                style="width: 150px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span class="text-dark fw-bold">Red Velvet</span>
+                                                    <span class="text-dark fw-bold">IDR 35.000 /pack</span>
+                                                </h5>
+                                                <small class="fst-italic">(1 pack isi 12 pcs)</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 menu-item">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid shadow rounded-circle" src="assets/img/product/cookies/Matcha White.webp" alt="img"
+                                                style="width: 150px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span class="text-dark fw-bold">Matcha White Choco</span>
+                                                    <span class="text-dark fw-bold">IDR 32.000 /pack</span>
+                                                </h5>
+                                                <small class="fst-italic">(1 pack isi 8 pcs)</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 menu-item">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid shadow rounded-circle" src="assets/img/product/cookies/Double Chocolate Fudge.webp" alt="img"
+                                                style="width: 150px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span class="text-dark fw-bold">Double Chocolate Fudge</span>
+                                                    <span class="text-dark fw-bold">IDR 33.000 /pack</span>
+                                                </h5>
+                                                <small class="fst-italic">(1 pack isi 6 pcs)</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 menu-item">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid shadow rounded-circle" src="assets/img/product/cookies/Almond Crispy.webp" alt="img"
+                                                style="width: 150px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span class="text-dark fw-bold">Almond Crispy</span>
+                                                    <span class="text-dark fw-bold">IDR 27.000 /pack</span>
+                                                </h5>
+                                                <small class="fst-italic">(1 pack isi 8 pcs)</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team Section -->
+        <section class="teams section py-5" id="teams">
+            <div class="container-xxl pt-5 pb-3">
+                <div class="container">
+                    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                        <h5 class="section-title-dark ff-secondary text-center text-dark fw-normal">Our Teams</h5>
+                        <h1 class="ff-title text-dark mb-5">Meet Our Team</h1>
+                    </div>
+                    <div class="row g-4">
+                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="team-item bg-light-subtle text-center rounded overflow-hidden">
+                                <div class="rounded-circle overflow-hidden m-4">
+                                    <img class="img-fluid" src="assets/img/chef.webp" alt="img">
+                                </div>
+                                <h5 class="mb-0">Full Name</h5>
+                                <small>Head Chef</small>
+                                <div class="d-flex justify-content-center mt-3">
+                                    <a class="btn btn-square btn-dark mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-dark mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-dark mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="team-item bg-light-subtle text-center rounded overflow-hidden">
+                                <div class="rounded-circle overflow-hidden m-4">
+                                    <img class="img-fluid" src="assets/img/chef.webp" alt="img">
+                                </div>
+                                <h5 class="mb-0">Full Name</h5>
+                                <small>Sous Chef</small>
+                                <div class="d-flex justify-content-center mt-3">
+                                    <a class="btn btn-square btn-dark mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-dark mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-dark mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="team-item bg-light-subtle text-center rounded overflow-hidden">
+                                <div class="rounded-circle overflow-hidden m-4">
+                                    <img class="img-fluid" src="assets/img/chef.webp" alt="img">
+                                </div>
+                                <h5 class="mb-0">Full Name</h5>
+                                <small>Chef de Partie</small>
+                                <div class="d-flex justify-content-center mt-3">
+                                    <a class="btn btn-square btn-dark mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-dark mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-dark mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                            <div class="team-item bg-light-subtle text-center rounded overflow-hidden">
+                                <div class="rounded-circle overflow-hidden m-4">
+                                    <img class="img-fluid" src="assets/img/chef.webp" alt="img">
+                                </div>
+                                <h5 class="mb-0">Full Name</h5>
+                                <small>Commis Chef</small>
+                                <div class="d-flex justify-content-center mt-3">
+                                    <a class="btn btn-square btn-dark mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-dark mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-dark mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact py-5 section bg-dark" id="contact">
+            <div class="container-xxl py-5">
+                <div class="container">
+                    <div class="row g-5 align-items-center">
+                        <div class="col-lg-6">
+                            <h5 class="section-title ff-secondary text-start text-white fw-normal">Contact Us</h5>
+                            <h1 class="mb-4 ff-title text-light">Get in Touch</h1>
+                            <p class="mb-4 text-secondary">Molestiae cupiditate aliquam excepturi laborum, quaerat omnis consequatur iusto beatae natus accusamus corrupti alias?</p>
+                            <!-- Phone -->
+                            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                                <i class="bi bi-telephone flex-shrink-0"></i>
+                                <div>
+                                    <h4>Call Us</h4>
+                                    <p class="text-secondary">
+                                        <a target="_blank" href="https://wa.me/62123456789">
+                                            (+62) 123 456 789
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- Email -->
+                            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="500">
+                                <i class="bi bi-envelope flex-shrink-0"></i>
+                                <div>
+                                    <h4>Email Us</h4>
+                                    <p class="text-secondary">
+                                        <a target="_blank" href="mailto:hello@company.com">hello@company.com</a>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- Address -->
+                            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                                <div>
+                                    <h4>Address</h4>
+                                    <p class="text-secondary mb-2">Jl. Mangga, Jakarta Indonesia</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 text-center text-lg-end overflow-hidden">
+                            <img class="img-fluid" src="assets/img/restaurant.webp" alt="img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <div class="container-fluid bg-dark footer text-secondary pt-1">
+            <div class="container py-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <p>Ipsum eveniet repellendus magni sint, animi consequuntur qui! Fuga, totam eius. Sunt repellendus amet nemo minima dolorem soluta deserunt illum dolor autem.</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-secondary fw-normal">Monday - Saturday</h5>
+                        <p>09.00 AM - 09.00 PM</p>
+                        <h5 class="text-secondary fw-normal">Sunday</h5>
+                        <p>10.00 AM - 08.00 PM</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <a class="btn btn-link text-secondary text-capitalize" href="index.html">Home</a>
+                        <a class="btn btn-link text-secondary text-capitalize" href="#about">About</a>
+                        <a class="btn btn-link text-secondary text-capitalize" href="#menu">Menu</a>
+                        <a class="btn btn-link text-secondary text-capitalize" href="#teams">Teams</a>
+                        <a class="btn btn-link text-secondary text-capitalize" href="#contact">Contact</a>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Jl. Mangga, Jakarta Indonesia</p>
+                        <p class="mb-2"><i class="fa-solid fa-phone-volume me-3"></i> (+62)123 456 789</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>hello@company.com</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social me-2" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social me-2" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social me-2" href=""><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light btn-social me-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <span id="current-year"></span> <a class="border-bottom" href="#">Slice Time</a>, All Right Reserved.
+                            Developed By <a class="border-bottom" href="https://siskoala.biz.id" target="_blank">Siskoala</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-outline-dark back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/lib/wow/wow.min.js"></script>
+    <script src="assets/vendor/lib/easing/easing.min.js"></script>
+    <script src="assets/vendor/lib/waypoints/waypoints.min.js"></script>
+    <script src="assets/vendor/lib/counterup/counterup.min.js"></script>
+    <script src="assets/vendor/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="assets/vendor/lib/tempusdominus/js/moment.min.js"></script>
+    <script src="assets/vendor/lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="assets/vendor/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="assets/vendor/bootstrap/js/main.js"></script>
+</body>
+</html>
